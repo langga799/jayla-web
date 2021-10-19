@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+main {
+    margin: 0px 70px 0px 70px;
+}
+
+
+/* Navbar */
+
+.box-navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.logo-company {
+    size: 20px;
+    margin-left: 100px;
+    margin-top: 14px;
+    vertical-align: middle;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+}
+
+nav ul {
+    margin-left: 450px;
+    margin-right: 100px;
+}
+
+nav li {
+    margin-right: 24px;
+    display: inline;
+    list-style-type: none;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+nav a:hover {
+    font-style: normal;
+    font-weight: bold;
+    transform: scale(1.03);
+    transition: transform 0.2s;
+}
+
+
+/* Slider */
+
+#slider {
+    padding-top: 100px;
+}
+
+.group {
+    height: 650px;
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.slider1 {
+    width: 650px;
+    height: 407px;
+}
+
+.box-title {
+    text-align: left;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.text-1 {
+    font-size: 28px;
+    float: left;
+    margin: 24px 0px 24px 150px;
+}
+
+.item {
+    flex: 50%;
+}
+
+.button {
+    background-image: linear-gradient(to right, #3CA7FE, #6B07B8);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-left: 150px;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 32px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo-jayla {
+    width: 200px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.span-logo {
+    font-weight: 700;
+    margin-left: 8px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    display: contents;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+.span1 {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: normal;
+}
+
+
+/* Content Tentang Kami */
+
+#about,
+#project,
+#team,
+#contact {
+    margin-top: 70px;
+}
+
+article {
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+footer {
+    height: 300px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #3CA7FE, #6B07B8);
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {}
